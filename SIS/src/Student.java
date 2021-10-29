@@ -1,6 +1,7 @@
 
 public class Student
 {
+	 
 	//broken
 	private String firstName;
 	private String lastName;
