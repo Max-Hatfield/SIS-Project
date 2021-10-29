@@ -1,30 +1,31 @@
-import java.io.File;
-import java.util.ArrayList;
+//import java.io.File;
+//import java.util.ArrayList;
 import java.util.Scanner;
-import java.io.IOException;
+//import java.io.IOException;
 
 public class ChangeStudentSchedule
 	{
 		static Scanner userInput = new Scanner (System.in);
 
-public static void main(String [] args) throws IOException
+public static void main(String [] args) 
 {
-	System.out.println("s");
+	
 
 	prnStu();
-	//css();
+	css();
 	
 	
 }
 
 public static void prnStu()
 {
+	
 	ListingStudents.listingStudent();
 	}
 
 public static void css()
 {
-	System.out.println("1. DO you want to change a student Schedule ?");
+	System.out.println("1. you want to change a student Schedule ?");
 	System.out.println("2.or do you want to return to menu");
 	int intChoice = userInput.nextInt();
 	if(intChoice==1) {
