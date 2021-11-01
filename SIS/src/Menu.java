@@ -59,6 +59,9 @@ public class Menu {
 				}
 			
 		case 2:
+				{
+					ChangeStudentSchedule.css();
+				}
 			break;
 		}
 	}
