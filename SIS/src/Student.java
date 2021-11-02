@@ -17,10 +17,10 @@ public class Student
 		firstName = fn;
 		lastName = ln;
 		gpa = g;
-		firstClass = fn;
+		firstClass = fc;
 		secondClass = sc;
 		thirdClass=tc;
-		firstClass = fg;
+		firstGrade = fg;
 		secondGrade = sg;
 		thirdGrade =tg;
 		}
