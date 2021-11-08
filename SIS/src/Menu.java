@@ -17,7 +17,7 @@ public class Menu {
 			deleteOrAdd();
 			break;
 		case 2:
-			changeStudentorGrades();
+			changeGradesorSchedule();
 			break;
 		case 3:
 			sortStudents();
@@ -44,10 +44,10 @@ public class Menu {
 			
 		}
 	
-	public static void changeStudentorGrades() throws IOException {
+	public static void changeGradesorSchedule() throws IOException {
 		
 		Scanner userInput1 = new Scanner(System.in);
-		System.out.println("Change Student Grades or Schedule? \n	(1) Change Grades  \n	(2) Switch Classes");
+		System.out.println("Change Student Grades or Schedule? \n	(1) Change Grades  \n	(2) Switch Schedule");
 		int changeStudentorGrades = userInput1.nextInt();
 		
 		switch(changeStudentorGrades) {
@@ -60,9 +60,9 @@ public class Menu {
 			
 		case 2:
 				{
-					ChangeStudentSchedule.css();
+					//ChangeStudentSchedule.css();
+					break;	
 				}
-			break;
 		}
 	}
 	
@@ -79,6 +79,9 @@ public class Menu {
 		case 2:
 			break;
 		case 3:
+				{
+					PeriodSort.pSort();
+				}
 			break;
 		}
 		
