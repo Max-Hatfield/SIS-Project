@@ -1,6 +1,7 @@
 
 public class Student
 {
+	 
 	//broken
 	private String firstName;
 	private String lastName;
@@ -11,7 +12,7 @@ public class Student
 	private String firstGrade;
 	private String secondGrade;
 	private String thirdGrade;
-	public Student(String fn, String ln, double g, String fc, String fg,String sc, String sg,String tc, String tg)
+	public Student(String fn, String ln, double g, String fc, String sc, String tc, String fg, String sg, String tg)
 	{
 		firstName = fn;
 		lastName = ln;

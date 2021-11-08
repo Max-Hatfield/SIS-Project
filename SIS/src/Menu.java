@@ -35,10 +35,8 @@ public class Menu {
 			switch(deleteOrAdd) {
 			
 			case 1:
-				AddingStudent.AddingStudents();
 				break;
 			case 2:
-				DeletingStudent.DeletingStudent();
 				break;
 			}
 			
